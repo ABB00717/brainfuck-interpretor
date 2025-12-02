@@ -3,6 +3,8 @@
 #include <vector>
 #include <string>
 
+#define TAPE_SIZE 1024
+
 int main(int argc, char *argv[]) {
     // Read the input from file or STDIN
     std::string code;
