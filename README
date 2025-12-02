@@ -1,1 +1,12 @@
 Every programmer wants to create their own Brainfuck interpreter, and it's actually quite simple.
+
+# Installation
+```bash
+g++ -o prog main.cpp
+```
+
+# Usage
+```bash
+./prog input.bf # Read from file
+./prog # read from STDIN
+```
