@@ -1,19 +1,9 @@
-#include <cstddef>
-#include <cstdint>
 #include <fstream>
 #include <iostream>
 #include <vector>
 #include <string>
 
-#define TAPE_SIZE 1024
-
-enum input_mode {
-    input_mode_stdin,
-    input_mode_file,
-};
-
 int main(int argc, char *argv[]) {
-    input_mode input_mode;
     // Read the input from file or STDIN
     std::string code;
     if (argc == 1) {
